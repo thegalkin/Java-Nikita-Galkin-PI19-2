@@ -3,7 +3,7 @@ package com.company;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import static java.util.Map.entry;
+
 
 
 public class Main {
