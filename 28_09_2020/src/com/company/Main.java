@@ -3,6 +3,7 @@ package com.company;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import static java.util.Map.entry;
 
 
 
@@ -11,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         //task1();
-        task2();
+        task3();
 
     }
     public static void task1(){
@@ -48,6 +49,13 @@ public class Main {
         System.out.println(output.get(1));
 
     }
-
+    public static void task3(){
+        Map<String, Integer> map = Map.ofEntries(entry("BMW",1), entry("MERC",21), entry("TSLA", 11));
+        
+        map.entrySet()
+            .stream()
+            .sorted(Map.Entry.comparingByValue())
+            .forEach(System.out::println);
+    }
 
 }
