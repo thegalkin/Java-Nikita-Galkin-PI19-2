@@ -28,6 +28,7 @@
       <workItem from="1601420556934" duration="8000" />
       <workItem from="1601420591650" duration="28000" />
       <workItem from="1602080239634" duration="27000" />
+      <workItem from="1603777485891" duration="95000" />
     </task>
     <servers />
   </component>
@@ -36,5 +37,9 @@
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="184" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.809@0.23.1440.809" timestamp="1602080260323" />
+    <state x="319" y="72" key="new project wizard" timestamp="1603777576740">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="319" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1603777576740" />
   </component>
 </project>
